@@ -3,10 +3,12 @@ import './App.css';
 import "firebase/firestore";
 import Home from './Component/Home';
 import Login from './Component/Login';
-import Card1 from './Component/Card1';
+//import Card1 from './Component/Card1';
+import Menu from './Component/Menu';
 import fire from './config/fire';
 import { BrowserRouter, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+//import Carousel1 from './Component/Carousel1';
 
 
 class App extends Component {
@@ -48,8 +50,10 @@ class App extends Component {
     return (
       <div>
         <div>
+          <Menu />
           <Home />
-          <Card1 />
+          {/* <Carousel1 /> */}
+          {/* <Card1 /> */}
         </div>
         
         <BrowserRouter>

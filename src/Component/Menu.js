@@ -6,8 +6,10 @@ import Nav from 'react-bootstrap/Nav';
 //import Form from 'react-bootstrap/Form';
 import firebase from 'firebase/app';
 import {Button} from 'react-bootstrap/';
+//import Card1 from './Card1';
 
 const Menu = () => {
+
     return (
         <div>
 
@@ -16,11 +18,11 @@ const Menu = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="/Home">Home</Nav.Link>
                         <Nav.Link href="#home">Books Table</Nav.Link>
                         <NavDropdown title="Menu" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Beverages</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Dessert</NavDropdown.Item>
+                            <NavDropdown.Item href="/Card1">Beverages</NavDropdown.Item>
+                            <NavDropdown.Item href="/Card2">Dessert</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Nav from 'react-bootstrap/Nav';
@@ -18,11 +18,11 @@ const Menu = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="/Home">Home</Nav.Link>
-                        <Nav.Link href="#home">Books Table</Nav.Link>
+                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="#home">Reserved a table</Nav.Link>
                         <NavDropdown title="Menu" id="basic-nav-dropdown">
                             <NavDropdown.Item href="/Card1">Beverages</NavDropdown.Item>
-                            <NavDropdown.Item href="/Card2">Dessert</NavDropdown.Item>
+                            <NavDropdown.Item href="/Card2">Desserts</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
 

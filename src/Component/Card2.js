@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import { Card, CardGroup, CardImg, CardBody, CardTitle, CardText } from 'reactstrap';
 import './Card2.css';
-//import Card1 from './Component/Card1';
+
 
 const Card2 = () => {
     return (
@@ -21,7 +21,8 @@ const Card2 = () => {
                     <CardImg top width="100%" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.realsimple.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmarquee_large_2x%2Fpublic%2F1558554613%2Ffrench-toast-recipe.jpg%3Fitok%3DUfwyfbZ4" style={{ width: 450, height: 250 }} />
                     <CardBody>
                         <CardTitle><h4>French Toast</h4></CardTitle>
-                        <CardText>French Toast</CardText>
+                        <CardText>French Toast make you feel happy</CardText>
+                        <div ALIGN="RIGHT"><CardText>100 BATH</CardText></div>
                     </CardBody>
                 </Card>
 
@@ -30,6 +31,7 @@ const Card2 = () => {
                     <CardBody>
                         <CardTitle><h4>Honey Toast</h4></CardTitle>
                         <CardText>Honey Toast</CardText>
+                        <div ALIGN="RIGHT"><CardText>120 BATH</CardText></div>
                     </CardBody>
                 </Card>
 
@@ -38,6 +40,7 @@ const Card2 = () => {
                     <CardBody>
                         <CardTitle><h4>Grilled Cheese</h4></CardTitle>
                         <CardText>Grilled cheese</CardText>
+                        <div ALIGN="RIGHT"><CardText>80 BATH</CardText></div>
                     </CardBody>
                 </Card>
 
@@ -48,20 +51,18 @@ const Card2 = () => {
                 <Card style={{ margin: 10, padding: 10,backgroundColor:"#fcdee2"}}>
                     <CardImg top width="100%" src="https://i.ytimg.com/vi/Z1OLG7F3HD4/maxresdefault.jpg" style={{ width: 450, height: 250 }} />
                     <CardBody>
-                        <CardTitle>
-                            <h4>Brownies</h4>
-                        </CardTitle>
+                        <CardTitle><h4>Brownies</h4></CardTitle>
                         <CardText>Brownies</CardText>
+                        <div ALIGN="RIGHT"><CardText>90 BATH</CardText></div>
                     </CardBody>
                 </Card>
 
                 <Card style={{ margin: 10, padding: 10,backgroundColor:"#e0f8e8"}}>
                     <CardImg top width="100%" src="https://www.kingarthurflour.com/sites/default/files/recipe_legacy/1915-3-large.jpg" style={{ width: 450, height: 250 }} />
                     <CardBody>
-                        <CardTitle>
-                            <h4>Croissants</h4>
-                        </CardTitle>
+                        <CardTitle><h4>Croissants</h4></CardTitle>
                         <CardText>Croissants</CardText>
+                        <div ALIGN="RIGHT"><CardText>45 BATH</CardText></div>
                     </CardBody>
                 </Card>
 
@@ -70,6 +71,7 @@ const Card2 = () => {
                     <CardBody>
                         <CardTitle><h4>Chocolate Cake</h4></CardTitle>
                         <CardText>Chocolate Cake</CardText>
+                        <div ALIGN="RIGHT"><CardText>80 BATH</CardText></div>
                     </CardBody>
                 </Card>
             </CardGroup>
@@ -79,20 +81,18 @@ const Card2 = () => {
                 <Card style={{ margin: 10, padding: 10,backgroundColor:"#ecdff3" }}>
                     <CardImg top width="100%" src="https://images-gmi-pmc.edge-generalmills.com/c582c255-bf45-4b95-b392-ea7588099019.jpg" style={{ width: 450, height: 250 }} />
                     <CardBody>
-                        <CardTitle>
-                            <h4>Red Velvet Cake</h4>
-                        </CardTitle>
+                        <CardTitle><h4>Red Velvet Cake</h4></CardTitle>
                         <CardText>Red Velvet Cake</CardText>
+                        <div ALIGN="RIGHT"><CardText>95 BATH</CardText></div>
                     </CardBody>
                 </Card>
 
                 <Card style={{ margin: 10, padding: 10,backgroundColor:"#bcf8cf" }}>
                     <CardImg top width="100%" src="https://img.kapook.com/u/pirawan/Cooking1/magaron.jpg" style={{ width: 450, height: 250 }} />
                     <CardBody>
-                        <CardTitle>
-                            <h4>Macarons</h4>
-                        </CardTitle>
+                        <CardTitle><h4>Macarons</h4></CardTitle>
                         <CardText>Macarons</CardText>
+                        <div ALIGN="RIGHT"><CardText>90 BATH</CardText></div>
                     </CardBody>
                 </Card>
 
@@ -101,6 +101,7 @@ const Card2 = () => {
                     <CardBody>
                         <CardTitle><h4>Macaroons</h4></CardTitle>
                         <CardText>Macaroons</CardText>
+                        <div ALIGN="RIGHT"><CardText>95 BATH</CardText></div>
                     </CardBody>
                 </Card>
             </CardGroup>
@@ -110,28 +111,29 @@ const Card2 = () => {
                 <Card style={{ margin: 10, padding: 10, backgroundColor:"#fcdee2" }}>
                     <CardImg top width="100%" src="https://images-gmi-pmc.edge-generalmills.com/98b8f839-76c8-427f-854e-bc5d14795e9c.jpg" style={{ width: 450, height: 250 }} />
                     <CardBody>
-                        <CardTitle>
-                            <h4>Oatmeal Chocolate Chip Cookies</h4>
-                        </CardTitle>
+                        <CardTitle><h4>Oatmeal Chocolate Chip Cookies</h4></CardTitle>
                         <CardText>Oatmeal Chocolate Chip Cookies</CardText>
+                        <div ALIGN="RIGHT"><CardText>35 BATH</CardText></div>
                     </CardBody>
                 </Card>
 
                 <Card style={{ margin: 10, padding: 10, backgroundColor:"#e0f8e8"}}>
-                    <CardImg top width="100%" src="https://lh3.googleusercontent.com/proxy/zKTMqYH3YGeOkz3lKvGUkrnPOB4Gpe1pYLk9GY2xzVua4K0r7L7gtoFRLnu2dNaw-cWg7V74NSxkcm3C9aQDXqSEiDscBwIPBROj9ayTfyjasEF5AYxceP-FmVc9zGZiYWuJrWao-xmv8tWAyqn9bT2x3Rj9ULNKEVge1X5ITEGYfYuvbTxl-HmjXnOCVg" style={{ width: 450, height: 250 }} />
+                    <CardImg top width="100%" src="https://4.bp.blogspot.com/-7eN9Nt8j1Ys/VLibNCj6kNI/AAAAAAAAU0o/igeR-ARd3c8/w1200-h630-p-k-no-nu/Three%2Bway%2BChoux%2B1.jpg" style={{ width: 450, height: 250 }} />
+                    {/* <CardImg top width="100%" src="https://lh3.googleusercontent.com/proxy/zKTMqYH3YGeOkz3lKvGUkrnPOB4Gpe1pYLk9GY2xzVua4K0r7L7gtoFRLnu2dNaw-cWg7V74NSxkcm3C9aQDXqSEiDscBwIPBROj9ayTfyjasEF5AYxceP-FmVc9zGZiYWuJrWao-xmv8tWAyqn9bT2x3Rj9ULNKEVge1X5ITEGYfYuvbTxl-HmjXnOCVg" style={{ width: 450, height: 250 }} /> */}
                     <CardBody>
-                        <CardTitle>
-                            <h4>Choux Cream</h4>
-                        </CardTitle>
+                        <CardTitle><h4>Choux Cream</h4></CardTitle>
                         <CardText>Choux Cream</CardText>
+                        <div ALIGN="RIGHT"><CardText>45 BATH</CardText></div>
                     </CardBody>
                 </Card>
 
                 <Card style={{ margin: 10, padding: 10 ,backgroundColor:"#fff9c7"}}>
-                    <CardImg top width="100%" src="https://lh3.googleusercontent.com/proxy/cIKqewMrEkQKA_4n-c2qRoM1MIJK28CKj9PR88NzZT_epu0Q4R0LO69YpiN-vxSzhShqJCmNaFE6sRMFzALyk5GMEO201ZRD0AdbydYml0jK5TSro2KG4VWstbJLcCEw3WzOTTnsXISvoPFn3CCp18A8WOcMMVF_oAGoMRPmer6v1NDkJX9YOLMTgx60uVifHQ-BdwpzT5nGKpLpKLqWCUdTBQS_8PK_zsPQaTlu4HkXap5hXdp5aQP_QJs" style={{ width: 450, height: 250 }} />
+                    <CardImg top width="100%" src="https://media-cdn.tripadvisor.com/media/photo-s/19/4d/30/05/parisian-eclair-by-christophe.jpg" style={{ width: 450, height: 250 }} />
+                    {/* <CardImg top width="100%" src="https://lh3.googleusercontent.com/proxy/TKj6pCZQvP3gAqox1wLHFvCLXpFqaXmIwGUxN2r7kqkyWfHrqyHyIIsRO8Aufvt3Uv_Abqf8kkrCG97AScaVksA8l5shx-vhacz6tDLukR3PrtSwAJJFIaykwIm7WYCqQBT0Pj9CnT2tXjECkQrwszXpOuBOac7G4eZMduRxSWiJohe-HH9_jX6KFyfewUa2R1xq9YZpaTIB-9H6QUL2amVAvIr0zpnzdhsjNhmah62bZyJ4WjCHK4vvZCFKEYMNZGBC1tXgNkYlkaXgXRR73pNsLJjslXGNtREtOUpCJCsIfTnj44EImEwMFpPdrHFC33gAVT4nq-omqWhm1urP4Xk" style={{ width: 450, height: 250 }} /> */}
                     <CardBody>
                         <CardTitle><h4>Eclair</h4></CardTitle>
                         <CardText>Eclair</CardText>
+                        <div ALIGN="RIGHT"><CardText>50 BATH</CardText></div>
                     </CardBody>
                 </Card>
             </CardGroup>
@@ -139,10 +141,12 @@ const Card2 = () => {
             <CardGroup style={{ margin: 5, padding: 5 }}>
 
                 <Card style={{ margin: 10, padding: 10,backgroundColor:"#ecdff3" }}>
-                    <CardImg top width="100%" src="https://lh3.googleusercontent.com/proxy/aq7LeILNU-d8lu6BmFasim5CpkjuSbvvov0AOoS-bPIggrEhxjsnRkldfqB_Sxtw5V5tvRAPqkbD4_6Rt1ZGg1rV0cy-xm2cR_N_DVvBLiCzj4vQGA" style={{ width: 450, height: 250 }} />
+                    <CardImg top width="100%" src="https://english.cdn.zeenews.com/sites/default/files/2014/12/18/304101-baked-spinach-with-cheese.jpg" style={{ width: 450, height: 250 }} />
+                    {/* <CardImg top width="100%" src="https://lh3.googleusercontent.com/proxy/aq7LeILNU-d8lu6BmFasim5CpkjuSbvvov0AOoS-bPIggrEhxjsnRkldfqB_Sxtw5V5tvRAPqkbD4_6Rt1ZGg1rV0cy-xm2cR_N_DVvBLiCzj4vQGA" style={{ width: 450, height: 250 }} /> */}
                     <CardBody>
                         <CardTitle><h4>Baked Spinach & Cheese</h4></CardTitle>
                         <CardText>Baked Spinach & Cheese</CardText>
+                        <div ALIGN="RIGHT"><CardText>135 BATH</CardText></div>
                     </CardBody>
                 </Card>
 
@@ -151,6 +155,7 @@ const Card2 = () => {
                     <CardBody>
                         <CardTitle><h4>Sandwich</h4></CardTitle>
                         <CardText>Sandwich</CardText>
+                        <div ALIGN="RIGHT"><CardText>100 BATH</CardText></div>
                     </CardBody>
                 </Card>
 
@@ -159,6 +164,7 @@ const Card2 = () => {
                     <CardBody>
                         <CardTitle><h4>French fries</h4></CardTitle>
                         <CardText>French fries</CardText>
+                        <div ALIGN="RIGHT"><CardText>75 BATH</CardText></div>
                     </CardBody>
                 </Card>
 

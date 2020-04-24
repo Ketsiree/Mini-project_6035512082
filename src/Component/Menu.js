@@ -19,7 +19,7 @@ const Menu = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                         <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="#home">Reserved a table</Nav.Link>
+                        <Nav.Link href="/Table">Reserved a table</Nav.Link>
                         <NavDropdown title="Menu" id="basic-nav-dropdown">
                             <NavDropdown.Item href="/Card1">Beverages</NavDropdown.Item>
                             <NavDropdown.Item href="/Card2">Desserts</NavDropdown.Item>
@@ -27,7 +27,7 @@ const Menu = () => {
                     </Nav>
 
                     {/* <Form inline> */}
-                        <Button variant="outline-success">< button onClick={() => firebase.auth().signOut()}>Sign Out</button></Button>
+                        <Button variant="secondary">< button onClick={() => firebase.auth().signOut()}>Sign Out</button></Button>
                     {/* </Form> */}
                 </Navbar.Collapse>
             </Navbar>

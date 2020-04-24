@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import { Card, CardGroup, CardImg, CardBody, CardTitle, CardText } from 'reactstrap';
 import './Card1.css';
-//import Card1 from './Component/Card1';
+
 
 const Card1 = () => {
     return (
@@ -22,6 +22,7 @@ const Card1 = () => {
                     <CardBody>
                         <CardTitle><h4>Americano</h4></CardTitle>
                         <CardText>Americano</CardText>
+                        <div ALIGN="RIGHT"><CardText>95 BATH</CardText></div>
                     </CardBody>
                 </Card>
 
@@ -30,6 +31,7 @@ const Card1 = () => {
                     <CardBody>
                         <CardTitle><h4>Espresso</h4></CardTitle>
                         <CardText>Espresso</CardText>
+                        <div ALIGN="RIGHT"><CardText>95 BATH</CardText></div>
                     </CardBody>
                 </Card>
 
@@ -38,6 +40,7 @@ const Card1 = () => {
                     <CardBody>
                         <CardTitle><h4>Cappuccino</h4></CardTitle>
                         <CardText>Cappuccino</CardText>
+                        <div ALIGN="RIGHT"><CardText>100 BATH</CardText></div>
                     </CardBody>
                 </Card>
 
@@ -48,20 +51,18 @@ const Card1 = () => {
                 <Card style={{ margin: 10, padding: 10,backgroundColor:"#fcdee2"}}>
                     <CardImg top width="100%" src="https://cdn1.medicalnewstoday.com/content/images/articles/289/289891/coffee.jpg" style={{ width: 450, height: 250 }} />
                     <CardBody>
-                        <CardTitle>
-                            <h4>Mocha</h4>
-                        </CardTitle>
+                        <CardTitle><h4>Mocha</h4></CardTitle>
                         <CardText>Mocha</CardText>
+                        <div ALIGN="RIGHT"><CardText>110 BATH</CardText></div>
                     </CardBody>
                 </Card>
 
                 <Card style={{ margin: 10, padding: 10,backgroundColor:"#e0f8e8"}}>
                     <CardImg top width="100%" src="https://image.dek-d.com/27/0482/6589/128944451" style={{ width: 450, height: 250 }} />
                     <CardBody>
-                        <CardTitle>
-                            <h4>Latte</h4>
-                        </CardTitle>
+                        <CardTitle><h4>Latte</h4></CardTitle>
                         <CardText>Latte</CardText>
+                        <div ALIGN="RIGHT"><CardText>110 BATH</CardText></div>
                     </CardBody>
                 </Card>
 
@@ -70,6 +71,7 @@ const Card1 = () => {
                     <CardBody>
                         <CardTitle><h4>Hot Chocolate</h4></CardTitle>
                         <CardText>Hot/Cold Chocolate</CardText>
+                        <div ALIGN="RIGHT"><CardText>90 BATH</CardText></div>
                     </CardBody>
                 </Card>
             </CardGroup>
@@ -79,20 +81,18 @@ const Card1 = () => {
                 <Card style={{ margin: 10, padding: 10,backgroundColor:"#ecdff3" }}>
                     <CardImg top width="100%" src="https://pixfeeds.com/images/drinks/tea/1280-463541757-iced-tea-and-lemon.jpg" style={{ width: 450, height: 250 }} />
                     <CardBody>
-                        <CardTitle>
-                            <h4>Lemon Tea</h4>
-                        </CardTitle>
+                        <CardTitle><h4>Lemon Tea</h4></CardTitle>
                         <CardText>LemonTea</CardText>
+                        <div ALIGN="RIGHT"><CardText>65 BATH</CardText></div>
                     </CardBody>
                 </Card>
 
                 <Card style={{ margin: 10, padding: 10,backgroundColor:"#bcf8cf" }}>
                     <CardImg top width="100%" src="https://theitravelchannel.tv/wp-content/uploads/2017/07/Thai-Iced-Tea.jpg" style={{ width: 450, height: 250 }} />
                     <CardBody>
-                        <CardTitle>
-                            <h4>Thai Tea</h4>
-                        </CardTitle>
+                        <CardTitle><h4>Thai Tea</h4></CardTitle>
                         <CardText>Thai tea</CardText>
+                        <div ALIGN="RIGHT"><CardText>65 BATH</CardText></div>
                     </CardBody>
                 </Card>
 
@@ -101,6 +101,7 @@ const Card1 = () => {
                     <CardBody>
                         <CardTitle><h4>Green Tea</h4></CardTitle>
                         <CardText>Green Tea</CardText>
+                        <div ALIGN="RIGHT"><CardText>65 BATH</CardText></div>
                     </CardBody>
                 </Card>
             </CardGroup>
@@ -110,20 +111,18 @@ const Card1 = () => {
                 <Card style={{ margin: 10, padding: 10, backgroundColor:"#fcdee2" }}>
                     <CardImg top width="100%" src="https://www.rd.com/wp-content/uploads/2017/10/04_Yogurt_Foods-High-In-Zinc-to-Beat-Cold-and-Flu-Viruses_691319338_Oksana-Mizina-1024x683.jpg" style={{ width: 450, height: 250 }} />
                     <CardBody>
-                        <CardTitle>
-                            <h4>Strawberry Smoothies</h4>
-                        </CardTitle>
+                        <CardTitle><h4>Strawberry Smoothies</h4></CardTitle>
                         <CardText>Strawberry Smoothies</CardText>
+                        <div ALIGN="RIGHT"><CardText>85 BATH</CardText></div>
                     </CardBody>
                 </Card>
 
                 <Card style={{ margin: 10, padding: 10, backgroundColor:"#e0f8e8"}}>
                     <CardImg top width="100%" src="https://steemitimages.com/DQmbNtAtA39ZzXdUNd2xwKigFdU19d4BTEor5p6BLgrn2do/DSC_0788.jpg" style={{ width: 450, height: 250 }} />
                     <CardBody>
-                        <CardTitle>
-                            <h4>Mixberry Smoothies</h4>
-                        </CardTitle>
+                        <CardTitle><h4>Mixberry Smoothies</h4></CardTitle>
                         <CardText>Mixberry Smoothies</CardText>
+                        <div ALIGN="RIGHT"><CardText>85 BATH</CardText></div>
                     </CardBody>
                 </Card>
 
@@ -132,6 +131,7 @@ const Card1 = () => {
                     <CardBody>
                         <CardTitle><h4>Kiwi Smoothies</h4></CardTitle>
                         <CardText>Kiwi Smoothies</CardText>
+                        <div ALIGN="RIGHT"><CardText>85 BATH</CardText></div>
                     </CardBody>
                 </Card>
             </CardGroup>
@@ -143,6 +143,7 @@ const Card1 = () => {
                     <CardBody>
                         <CardTitle><h4>Strawberry Soda</h4></CardTitle>
                         <CardText>Strawberry Soda</CardText>
+                        <div ALIGN="RIGHT"><CardText>70 BATH</CardText></div>
                     </CardBody>
                 </Card>
 
@@ -151,6 +152,7 @@ const Card1 = () => {
                     <CardBody>
                         <CardTitle><h4>blueberry Soda</h4></CardTitle>
                         <CardText>blueberry Soda</CardText>
+                        <div ALIGN="RIGHT"><CardText>70 BATH</CardText></div>
                     </CardBody>
                 </Card>
 
@@ -159,6 +161,7 @@ const Card1 = () => {
                     <CardBody>
                         <CardTitle><h4>Kiwi Soda</h4></CardTitle>
                         <CardText>Kiwi Soda</CardText>
+                        <div ALIGN="RIGHT"><CardText>70 BATH</CardText></div>
                     </CardBody>
                 </Card>
 

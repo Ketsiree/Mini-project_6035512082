@@ -6,10 +6,10 @@ import Login from './Component/Login';
 import Card1 from './Component/Card1';
 import Card2 from './Component/Card2';
 import Menu from './Component/Menu';
+import Table from './Component/Table';
 import fire from './config/fire';
 import { BrowserRouter, Route } from 'react-router-dom';
-//import Carousel1 from './Component/Carousel1';
-
+import 'firebase/auth'
 
 class App extends Component {
 
@@ -57,6 +57,7 @@ class App extends Component {
         <BrowserRouter>
           <Route exact path="/" component={Home} />
           <Route path="/login" component={Login} />
+          <Route path="/Table" component={Table} />
           <Route path="/Card1" component={Card1} />
           <Route path="/Card2" component={Card2} />
          

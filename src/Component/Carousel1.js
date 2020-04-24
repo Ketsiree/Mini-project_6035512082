@@ -8,9 +8,9 @@ const Carousel1 = () => {
 
       <Carousel>
         <Carousel.Item>
-          <img style={{ margin: 10, padding: 10,width: 600, height: 500 }}
+          <img style={{ margin:5, padding:5,width: 1000, height: 500 }}
             className="d-block w-100"
-            src="https://craftnroll.net/wp-content/uploads/2015/12/O_Glee-5.jpg"
+            src="https://wallpaperaccess.com/full/41593.jpg"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -18,30 +18,31 @@ const Carousel1 = () => {
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
+        
         <Carousel.Item>
-          <img style={{ margin: 10, padding: 10,width: 600, height: 500 }}
+          <img style={{ margin:5, padding:5,width: 1000, height: 500 }}
             className="d-block w-100"
-            src="https://craftnroll.net/wp-content/uploads/2015/12/O_Glee-21-1024x683.jpg"
+            src="https://iberrywifisecurity.com/wp-content/uploads/2017/09/cafe-1.jpg"
             alt="Second slide"
           />
-
           <Carousel.Caption>
             <h3>Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
+
         <Carousel.Item>
-          <img style={{ margin: 10, padding: 10,width: 600, height: 500 }}
+          <img style={{ margin:5, padding:5,width: 1000, height: 500 }}
             className="d-block w-100"
-            src="https://craftnroll.net/wp-content/uploads/2015/12/O_Glee-2.jpg"
+            src="https://img2.goodfon.com/wallpaper/nbig/a/9e/kofe-knigi-ochki.jpg"
             alt="Third slide"
           />
-
           <Carousel.Caption>
             <h3>Third slide label</h3>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
           </Carousel.Caption>
         </Carousel.Item>
+
       </Carousel>
 
     </div>

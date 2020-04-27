@@ -14,8 +14,8 @@ const Carousel1 = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>บรรยากาศภายใน</h3>
+            <p>บรรยากาศภายในมีโซฟานุ่มๆ นั่งสบายไฟ Warm light ทำให้บรรยากาศน่านั่ง</p>
           </Carousel.Caption>
         </Carousel.Item>
         
@@ -26,8 +26,8 @@ const Carousel1 = () => {
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>บรรยากาศอีกฝั่ง</h3>
+            <p>บาร์หน้าเคาร์เตอร์สำหรับคนมานั่งเดี่ยวๆ ชิลๆได้ มีโต๊ะที่หน้าร้านแบบ Outdoor</p>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -38,8 +38,8 @@ const Carousel1 = () => {
             alt="Third slide"
           />
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <h3>กาแฟและหนังสือ</h3>
+            <p>บรรยากาศภาในร้านสามารถนั่งทำงานได้ทั้งในและนอกร้าน กาแฟสักแก้ว หนังสือสักเล่ม ก็ชิลดีเหมือนกัน</p>
           </Carousel.Caption>
         </Carousel.Item>
 

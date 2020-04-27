@@ -1,6 +1,8 @@
 .myCafe{
   padding: 64px;
-  background-color: #efe5ee;
+  background-color:#ecd4e4;
+  font-family: 'Courgette', cursive;
+  color:#622d90;
 }
 .cafe{
   padding: 125px;
@@ -8,18 +10,38 @@
   display: flex;
   justify-content: center;  
   align-items: center;
-  color:#622d90;
+  color:#444fad;
   flex-direction: column;
   border: 1px solid whitesmoke;
-  font-family: Verdana,Tahoma, sans-serif;
   font-style: normal;
   font-size: xx-large;
+  /* font-family: 'Lobster', cursive; */
+  font-family: 'Lemon', cursive;
   /* opacity: 0.8; */
 }
 
 .myCafe1{
   margin:50;
   padding: 64px;
-  background-color:rgb(255, 185, 196);
+  background-color:#f7d7c2;
 }
 
+.Book1{
+  text-align: center;
+  display: flex; 
+  justify-content: center;  
+  color:#444fad;
+  padding: 64px;
+  background-color:#bcf4e4;
+  font-family: 'Courgette', cursive;
+}
+
+.Book2{
+  text-align: center;
+  display: flex; 
+  justify-content: center;  
+  color:#444fad;
+  padding: 64px;
+  background-color:#e7b6ad;
+  font-family: 'Courgette', cursive;
+}

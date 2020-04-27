@@ -1,17 +1,11 @@
 .myStyleDes{
-    /* font-size: 70px;
-    text-align: center;
-    width: 20px;
-    height: 20px;
-    text-align: center; */
     padding: 125px;
     background-image: url("https://cdn.ila-france.com/wp-content/uploads/2017/03/workshop-macarons-1750x660-1.jpg"); 
     display: flex; 
     justify-content: center;  
     align-items: center;
-    color:white;
+    color:rgb(63, 186, 207);
     flex-direction: column;
-    font-family: sans-serif;
+    font-family: 'Carter One', cursive;
     border: 1px solid white;
-    /* opacity: 0.8; */
 }

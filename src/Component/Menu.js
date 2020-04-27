@@ -14,12 +14,12 @@ const Menu = () => {
         <div>
 
             <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="#home">My Cafe</Navbar.Brand>
+                <Navbar.Brand href="#home">Rendezvous Cafe</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                         <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/Table">Reserved a table</Nav.Link>
+                        <Nav.Link href="/Table">Reserve a table</Nav.Link>
                         <NavDropdown title="Menu" id="basic-nav-dropdown">
                             <NavDropdown.Item href="/Card1">Beverages</NavDropdown.Item>
                             <NavDropdown.Item href="/Card2">Desserts</NavDropdown.Item>

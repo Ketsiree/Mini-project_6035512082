@@ -51,9 +51,7 @@ class App extends Component {
       <div>
         <div>
           <Menu />       
-       
-        </div>
-        
+        </div> 
         <BrowserRouter>
           <Route exact path="/" component={Home} />
           <Route path="/login" component={Login} />

@@ -1,0 +1,29 @@
+.myStyleTable{
+    padding: 125px;
+    background-image: url("https://i.pinimg.com/originals/3f/b9/d7/3fb9d7397d0f6ce64e99d3561db75d03.png"); 
+    display: flex; 
+    justify-content: center;  
+    align-items: center;
+    color:white;
+    flex-direction: column;
+    font-family: 'Fredoka One', cursive;
+    border: 1px solid white;
+    color:rgb(202, 19, 80);
+    
+}
+
+.Book{
+    text-align: center;
+    display: flex; 
+    justify-content: center;  
+    color:rgb(49, 190, 183);
+    font-family: 'Fredoka One', cursive;
+}
+.li1{
+    display: flex;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color:rgb(24, 128, 168);
+    font-family: 'Fredoka One', cursive;
+}

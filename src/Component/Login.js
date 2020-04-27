@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// Firebase.
 import firebase from 'firebase/app';
 import 'firebase/auth';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
@@ -7,38 +6,31 @@ import './Login.css';
 
 // Initialize Firebase
 
-
 class Login extends Component {
 
-  // The component's Local state.
+
   state = {
-    isSignedIn: false // Local signed-in state.
+    isSignedIn: false // sign in 
   };
 
   // Configure FirebaseUI.
   uiConfig = {
-    // Popup signin flow rather than redirect flow.
-    signInFlow: 'popup',
-    // We will display Google , Facebook , Etc as auth providers.
+    signInFlow: 'popup',  //popup 
     signInOptions: [
       firebase.auth.GoogleAuthProvider.PROVIDER_ID,
       firebase.auth.FacebookAuthProvider.PROVIDER_ID,
       firebase.auth.EmailAuthProvider.PROVIDER_ID,
     ],
     callbacks: {
-      // Avoid redirects after sign-in.
       signInSuccess: () => false
     }
   };
 
-  // Listen to the Firebase Auth state and set the local state.
   componentDidMount() {
     this.unregisterAuthObserver = firebase.auth().onAuthStateChanged(
         (user) => this.setState({isSignedIn: !!user})
     );
   }
-  
-  // Make sure we un-register Firebase observers when the component unmounts.
   componentWillUnmount() {
     this.unregisterAuthObserver();
   }
@@ -47,10 +39,9 @@ class Login extends Component {
     if (!this.state.isSignedIn) {
       return (
         <div className="container1">
-          <h1>Welcome</h1>
-          <h2>My Cafe</h2>
-          <br />
-          <p>Please sign-in:</p>
+          <p>Welcome</p>
+          <h1>to Rendezvous Cafe</h1>
+          <h5>Please sign-in:</h5>
           <StyledFirebaseAuth uiConfig={this.uiConfig} firebaseAuth={firebase.auth()}/>
         </div>
       );
@@ -60,14 +51,12 @@ class Login extends Component {
         <h1>"Welcome"</h1>
         <h1>My Cafe</h1>
         <p>Hello{firebase.auth().currentUser.displayName}! You are now signed-in!</p>
-        {/* <img id="photo" className="pic" src={firebase.auth().currentUser.photoURL}/> */}
         <button onClick={() => firebase.auth().signOut()}>Sign-out</button>
       </div>
-
-
     );
 
   }
 }
-
 export default Login;
+
+

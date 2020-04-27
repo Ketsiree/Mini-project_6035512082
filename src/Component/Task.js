@@ -1,6 +1,8 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Card } from 'react-bootstrap';
+import './Task.css';
+
 export default props => {
     const { task, editTask, deleteTask } = props
     const { id,
@@ -8,14 +10,13 @@ export default props => {
         lastname,
         date,
         time } = task
-
     return (
-        <div>
-            <Card style={{ width: '18rem' }}>
+        <div className="li">
+            <Card style={{width: '18rem' }}>
                 <Card.Body>
-                    <Card.Title>Books Your Table</Card.Title>
+                    <Card.Title>Reserved a Table</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">ID:{id}</Card.Subtitle>
-                    <Card.Text className="ll">
+                    <Card.Text>
                         <td>Name:{name}</td>
                         Lastname:{lastname}
                         <td>Date:{date}</td>
@@ -26,9 +27,10 @@ export default props => {
                 </Card.Body>
             </Card>
         </div>
-       
     )
 }
+
+
 
 
 
